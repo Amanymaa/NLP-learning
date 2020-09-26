@@ -104,7 +104,7 @@ y = yelp_class['stars']
 X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.3,random_state=101)
 
 
-# Now fit the pipeline to the training data. Remember you can't use the same training data as last time because that data has already been vectorized. We need to pass in just the text and labels**
+# Now fit the pipeline to the training data. 
 
 
 pipeline.fit(X_train,y_train)
